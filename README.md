@@ -6,7 +6,7 @@
 ## Dataset Introduction
 
 ### Source: Congress.gov
-Congress.gov is an essential source of legislative information, ideal for investigating specific legislation and exploring legislative history. Congress.gov also contains vast amounts of data. Over the years, users have "scraped" the website, and the Government Publishing Office (GPO) has offered bulk data downloads for some collections. The introduction of the beta Congress.gov API marks a significant advancement, providing structured and accurate congressional data. This API is a RESTful API, offering responses in XML or JSON, and covers a broad range of collections including bills, amendments, summaries, Congress members, the Congressional Record, committee reports, nominations, treaties, and House Communications.
+[Congress.gov](https://www.congress.gov/) is an essential source of legislative information, ideal for investigating specific legislation and exploring legislative history. Congress.gov also contains vast amounts of data. Over the years, users have "scraped" the website, and the Government Publishing Office (GPO) has offered bulk data downloads for some collections. The introduction of the beta Congress.gov API marks a significant advancement, providing structured and accurate congressional data. This API is a RESTful API, offering responses in XML or JSON, and covers a broad range of collections including bills, amendments, summaries, Congress members, the Congressional Record, committee reports, nominations, treaties, and House Communications.
 
 ## Features
 - **Web Scraping**: Scripts to automatically scrape URLs of congressional records.
