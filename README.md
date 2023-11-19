@@ -77,6 +77,25 @@ The dataset encompasses a variety of congressional document types:
 
 Each type provides insights into the U.S. Congress, valuable for research and policy analysis.
 
+## Using and Contributing to the Repository
+
+### Cloning and Using
+- Anyone is free to clone and use the content of this repository.
+- Changes can be made locally, but they cannot be pushed back to the original repository unless you're a collaborator.
+
+### Making Contributions
+- For personal modifications and enhancements, consider forking the repository.
+- Forking allows you to make changes in your own version of the project.
+- To suggest changes to the original project, create a pull request from your fork.
+
+### Pull Requests
+- Pull requests are welcome and will be reviewed by the repository owner.
+- This process ensures that the integrity of the original project is maintained.
+
+### Collaborators
+- Direct contributions (push access) to this repository are limited to collaborators.
+- Collaborators are added by the repository owner.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
