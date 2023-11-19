@@ -28,6 +28,17 @@ The provided scripts in this repository are designed to be plug-and-play, with m
    # Insert your API key here
    api_key = "YOUR_UNIQUE_API_KEY"
 
+3. **Run the Scripts**: With your API key in place and directories set up, you should be able to run the scripts.
+
+### Using the Scripts
+
+After configuring the scripts with your API key, you're all set to start:
+
+- **Scraping data**: The scripts will fetch URLs from Congress.gov using your API key.
+- **Downloading and converting data**: The scripts will download PDFs and convert them into text format for further analysis.
+  
+Remember, the API key is essential for accessing the Congress.gov data, so make sure it is correctly implemented in the scripts.
+
 ## Features
 - **Web Scraping**: Scripts to automatically scrape URLs of congressional records.
 - **PDF Downloading**: Scripts to download PDFs from the scraped URLs.
