@@ -3,10 +3,30 @@
 ## Overview
 `CongressionalRecords` is a collection of Python scripts for extracting and converting U.S. Congressional records from the [Congress.gov](https://www.congress.gov/) into text format. Covering the period from 1995-01-04 to 2023-11-09, from the 104th to the 118th Congress, this repository provides the tools needed to scrape URLs, download PDF files, and transform these PDFs into readable text files using PyPDF2. In addition, it includes a library of URLs, PDFs, text files, and CSVs, offering a comprehensive resource for analyzing congressional documents.
 
-## Dataset Introduction
+## Dataset Introduction and Accessing the Data
+
+To effectively use the CongressionalRecords scripts or access data from the Congress.gov API, it's essential to acquire a unique API key from [Congress.gov](https://www.congress.gov/). This key will allow you to authenticate your requests and access the wealth of congressional data provided by the API.
 
 ### Source: Congress.gov
 [Congress.gov](https://www.congress.gov/) is an essential source of legislative information, ideal for investigating specific legislation and exploring legislative history. Congress.gov also contains vast amounts of data. Over the years, users have "scraped" the website, and the Government Publishing Office (GPO) has offered bulk data downloads for some collections. The introduction of the beta Congress.gov API marks a significant advancement, providing structured and accurate congressional data. This API is a RESTful API, offering responses in XML or JSON, and covers a broad range of collections including bills, amendments, summaries, Congress members, the Congressional Record, committee reports, nominations, treaties, and House Communications.
+
+### Obtaining an API Key
+
+1. **Visit Congress.gov**: Navigate to [Congress.gov](https://www.congress.gov/).
+2. **Register for an API Key**: Follow the instructions on the website to sign up for an API key. This usually involves creating an account and agreeing to certain terms of use.
+3. **Keep Your Key Secure**: Once you receive your API key, keep it secure. Avoid sharing it publicly or uploading it to public repositories.
+
+### Configuring the Scripts
+
+The provided scripts in this repository are designed to be plug-and-play, with minimal setup required:
+
+1. **Local Directory Setup**: Ensure that your local directory paths in the scripts are correctly set up to where you want to download and store the PDFs and text files.
+2. **Insert Your API Key**: Locate the section in the script where the API key is required and insert your unique key. This will usually be clearly marked in the code.
+   
+   Example:
+   ```python
+   # Insert your API key here
+   api_key = "YOUR_UNIQUE_API_KEY"
 
 ## Features
 - **Web Scraping**: Scripts to automatically scrape URLs of congressional records.
