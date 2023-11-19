@@ -1,7 +1,7 @@
 # CongressionalRecords
 
 ## Overview
-`CongressionalRecords` is an automated Python toolkit designed to extract and convert U.S. Congressional records from the GPO website into a text format. This repository includes scripts for web scraping URLs, downloading PDF files, and transforming these PDFs into readable text files using PyPDF2. The primary goal is to streamline the process of accessing and analyzing congressional documents, making it easier for researchers, data analysts, and policy enthusiasts to work with this valuable data.
+`CongressionalRecords` is an automated Python toolkit designed to extract and convert U.S. Congressional records from the GPO website into a text format. This repository includes scripts for web scraping URLs, downloading PDF files, and transforming these PDFs into readable text files using PyPDF2. The primary goal is to streamline the process of accessing and analyzing congressional documents, making it easier for researchers, data analysts, and policy enthusiasts to work with this valuable data. 
 
 ## Features
 - **Web Scraping**: Automatically scrape URLs of congressional records from the GPO website.
