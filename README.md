@@ -3,6 +3,11 @@
 ## Overview
 `CongressionalRecords` is a collection of Python scripts for extracting and converting U.S. Congressional records from the GPO website into text format. Covering the period from 1995-01-04 to 2023-11-09, from the 104th to the 118th Congress, this repository provides the tools needed to scrape URLs, download PDF files, and transform these PDFs into readable text files using PyPDF2. In addition, it includes a library of URLs, PDFs, text files, and CSVs, offering a comprehensive resource for analyzing congressional documents.
 
+## Dataset Introduction
+
+### Source: Congress.gov
+Congress.gov is an essential source of legislative information, ideal for investigating specific legislation and exploring legislative history. Congress.gov also contains vast amounts of data. Over the years, users have "scraped" the website, and the Government Publishing Office (GPO) has offered bulk data downloads for some collections. The introduction of the beta Congress.gov API marks a significant advancement, providing structured and accurate congressional data. This API is a RESTful API, offering responses in XML or JSON, and covers a broad range of collections including bills, amendments, summaries, Congress members, the Congressional Record, committee reports, nominations, treaties, and House Communications.
+
 ## Features
 - **Web Scraping**: Scripts to automatically scrape URLs of congressional records.
 - **PDF Downloading**: Scripts to download PDFs from the scraped URLs.
@@ -22,7 +27,6 @@ Clone the repository to your local machine:
 Navigate to the cloned directory and install the required Python packages:
 `pip install requests PyPDF2`
 
-
 ## Usage
 1. **Explore the Dataset**: Look through the provided URLs, PDFs, text files, and CSVs spanning from 1995-01-04 to 2023-11-09.
 2. **Utilize the Scripts**: Employ the scripts to scrape, download, and convert new data.
@@ -41,14 +45,6 @@ The dataset encompasses a variety of congressional document types:
 - Senate Records
 
 Each type provides insights into the U.S. Congress, valuable for research and policy analysis.
-
-## Contributing
-We welcome contributions to enhance `CongressionalRecords`. To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add some feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Submit a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
