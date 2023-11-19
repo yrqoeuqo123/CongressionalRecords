@@ -1,0 +1,44 @@
+# Congressional Records Data Processing Workflow
+
+## Pre-Extracted Data Availability
+
+**Note**: As of 2023-11-09, this repository includes a dataset of pre-extracted Congressional records. This data is ready for immediate use.
+
+- **For Analyses Up To 2023-11-09**: Directly use the packaged data.
+- **For Newer Records**: Update the dataset with records post-2023-11-09 by running the `congressional_record_scraper` script.
+
+## Overview of the Workflow
+
+This collection of scripts automates the process of extracting Congressional records from the Congress API, downloading them as PDFs, and converting them into text format for further analysis. Follow these steps to process the data from URL retrieval to text extraction.
+
+### 1. congressional_record_scraper
+
+This script is your starting point. It retrieves URLs of the Congressional records available through the Congress API and saves the metadata, including URLs, in CSV files organized by date.
+
+**Usage**:
+- Set up your API key from Congress.gov in the script.
+- Specify the date range you want to scrape.
+- Run the script to fetch the data, and the script will save each day's records in a separate CSV file.
+
+### 2. pdf_extraction
+
+After you have your CSV files with the URLs to the Congressional records, use the `pdf_extraction` script to download the PDF files.
+
+**Usage**:
+- Ensure the script points to the directory containing your CSV files.
+- Run the script, and it will download all PDFs, saving them in a specified directory.
+
+### 3. pdf_to_text
+
+The final step in the process is converting the downloaded PDFs into a text format.
+
+**Usage**:
+- Point the script to the directory where your PDFs are saved.
+- Execute the script to convert each PDF into a text file, which will be saved in your designated text output directory.
+
+**Process Flow**:
+1. Run `congressional_record_scraper` to gather URLs and metadata.
+2. Run `pdf_extraction` to download PDFs from the URLs in the CSVs.
+3. Run `pdf_to_text` to convert the downloaded PDFs into text files.
+
+By the end of this process, you will have a directory of text files ready for text mining and analysis. Further recommendations and preparations for text mining will be introduced at a later stage.
