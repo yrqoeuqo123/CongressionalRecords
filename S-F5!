@@ -1,0 +1,13 @@
+organize
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   scripts/Congressional Records Data Processing Workflow/READ.txt
+#	renamed:    scripts/congressional_record_scraper.py -> scripts/Congressional Records Data Processing Workflow/congressional_record_scraper.py
+#	renamed:    scripts/pdf_extraction.py -> scripts/Congressional Records Data Processing Workflow/pdf_extraction.py
+#	renamed:    scripts/pdf_to_text.py -> scripts/Congressional Records Data Processing Workflow/pdf_to_text.py
+#
