@@ -49,7 +49,7 @@ Remember, the API key is essential for accessing the Congress.gov data, so make 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
 - Python 3.x
-- Required Python libraries: `requests`, `PyPDF2`, `csv`, `os`, and `time`
+- Required Python libraries: `nltk`, `tqdm`, `requests`, `PyPDF2`, `csv`, `os`, and `time`
 
 ## Installation
 Clone the repository to your local machine:
