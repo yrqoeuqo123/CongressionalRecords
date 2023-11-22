@@ -1,0 +1,26 @@
+# Congressional Records Data Processing Steps
+
+This repository contains data related to the processing of Congressional records. Below is a description of each folder and its contents:
+
+## csv_contain_urls
+- **Description**: This folder contains CSV files with URLs to the original Congressional records.
+- **Purpose**: To keep track of the source URLs for data provenance and auditing.
+
+## pdfs
+- **Description**: This folder stores the original PDFs of the Congressional records as downloaded from the URLs in the `csv_contain_urls` folder.
+- **Purpose**: To have a raw data backup before text extraction.
+
+## extracted_text_from_pdfs
+- **Description**: Contains text files that are the result of extracting content from the PDFs.
+- **Purpose**: To perform text analysis and data processing on a more accessible text format.
+
+## processed_text
+- **Description**: This folder holds the processed text files after cleaning and pre-processing steps have been applied (e.g., stop word removal, stemming).
+- **Purpose**: To prepare the data for NLP tasks such as topic modeling, sentiment analysis, etc.
+
+# Processing Pipeline
+
+1. **URL Collection**: URLs to the Congressional records are compiled into CSV files.
+2. **Download PDFs**: Scripts run to download PDFs from the collected URLs and store them in the `pdfs` folder.
+3. **Text Extraction**: PDFs are processed to extract text, which is saved in the `extracted_text_from_pdfs` folder.
+4. **Text Pre-processing**: The extracted text undergoes cleaning steps, with the resulting text saved in the `processed_text` folder.
