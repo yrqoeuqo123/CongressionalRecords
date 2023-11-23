@@ -101,4 +101,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 - U.S. Government Publishing Office (GPO) for the congressional records access.
-- `requests` and `PyPDF2` library maintainers and contributors.
