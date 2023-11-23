@@ -1,4 +1,4 @@
-# CongressionalRecords
+# Congressional Record Scraper And A Walkthrough Tutorial of Applying Text Mining Techniques
 
 ## Overview
 `CongressionalRecords` is a collection of Python scripts for extracting and converting U.S. Congressional records from the  [Congress.gov API](https://api.congress.gov/) into text format. Covering the period from 1995-01-04 to 2023-11-09, from the 104th to the 118th Congress, this repository provides the tools needed to scrape URLs, download PDF files, and transform these PDFs into readable text files using PyPDF2. In addition, it includes a library of URLs, PDFs, text files, and CSVs, offering a comprehensive resource for analyzing congressional documents.
