@@ -51,16 +51,16 @@ Before you begin, ensure you have the following installed:
 
 - **Python 3.x**
 - **Required Python Libraries**:
-  - `[nltk](https://www.nltk.org/)`: For natural language processing tasks and sentiment analysis.
-  - `[tqdm](https://tqdm.github.io/)`: For displaying progress bars during data processing.
-  - `[requests](https://requests.readthedocs.io/en/master/)`: For making HTTP requests to scrape web content.
-  - `[PyPDF2](https://pythonhosted.org/PyPDF2/)`: For reading and converting PDF documents to text.
-  - `[pandas](https://pandas.pydata.org/)`: For data manipulation and analysis.
-  - `[matplotlib](https://matplotlib.org/)`: For creating visualizations and plots.
-  - `[WordCloud](https://github.com/amueller/word_cloud)`: For generating word cloud visualizations.
-  - `[gensim](https://radimrehurek.com/gensim/)`: For advanced natural language processing tasks like topic modeling.
-  - `[pyLDAvis](https://github.com/bmabey/pyLDAvis)`: For interactive topic model visualization.
-  - `[tomotopy](https://bab2min.github.io/tomotopy/)`: For Dynamic Topic Modeling (DTM).
+  - [nltk](https://www.nltk.org/): For natural language processing tasks and sentiment analysis.
+  - [tqdm](https://tqdm.github.io/): For displaying progress bars during data processing.
+  - [requests](https://requests.readthedocs.io/en/master/): For making HTTP requests to scrape web content.
+  - [PyPDF2](https://pythonhosted.org/PyPDF2/): For reading and converting PDF documents to text.
+  - [pandas](https://pandas.pydata.org/): For data manipulation and analysis.
+  - [matplotlib](https://matplotlib.org/): For creating visualizations and plots.
+  - [WordCloud](https://github.com/amueller/word_cloud): For generating word cloud visualizations.
+  - [gensim](https://radimrehurek.com/gensim/): For advanced natural language processing tasks like topic modeling.
+  - [pyLDAvis](https://github.com/bmabey/pyLDAvis): For interactive topic model visualization.
+  - [tomotopy](https://bab2min.github.io/tomotopy/): For Dynamic Topic Modeling (DTM).
   - `csv`: Standard library for handling CSV file operations.
   - `os`: Standard library for interacting with the operating system.
   - `time`: Standard library for timing and delays.
