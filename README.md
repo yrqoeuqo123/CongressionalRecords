@@ -2,6 +2,15 @@
 ## Overview
 `CongressionalRecords` is a collection of Python scripts for extracting and converting U.S. Congressional records from the  [Congress.gov API](https://api.congress.gov/) into text format. Covering the period from 1995-01-04 to 2023-11-09, from the 104th to the 118th Congress, this repository provides the tools needed to scrape URLs, download PDF files, and transform these PDFs into readable text files using PyPDF2. In addition, it includes a library of URLs, PDFs, text files, and CSVs, offering a comprehensive resource for analyzing congressional documents.
 
+## Principal Investigator:
+Tianyi Zhang
+
+## How to Cite this Database
+Zhang, Tianyi. (2023). Congressional Records. GitHub repository. https://github.com/yrqoeuqo123/CongressionalRecords
+
+## Contact Email:
+tzha325@emory.edu
+
 ## Dataset Introduction and Accessing the Data
 
 To effectively use the CongressionalRecords scripts or access data from the Congress.gov API, it's essential to acquire a unique API key from [Congress.gov](https://www.congress.gov/). This key will allow you to authenticate your requests and access the wealth of congressional data provided by the API.
