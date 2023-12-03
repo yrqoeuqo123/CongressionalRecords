@@ -120,7 +120,19 @@ Each type provides insights into the U.S. Congress, valuable for research and po
 - Collaborators are added by the repository owner.
 
 ## License
+### MIT License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Data Usage Terms
+In addition to the software license, the data provided in this repository is governed by the following terms of use:
+
+### Permissions:
+- Share: You are permitted to copy, distribute, and use the data for any purpose.
+- Create: You may produce new works from this data.
+- Adapt: You have the freedom to modify, transform, and build upon the data.
+
+### Conditions:
+- Attribution: If you use the data publicly, or create any derivative works, proper attribution must be given as specified in this document. When using or redistributing the data, or derivatives thereof, the license terms and any original notices must be clearly communicated and preserved.
 
 ## Acknowledgments
 - U.S. Government Publishing Office (GPO) for the congressional records access.
