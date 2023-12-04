@@ -134,5 +134,13 @@ In addition to the software license, the data provided in this repository is gov
 ### Conditions:
 - Attribution: If you use the data publicly, or create any derivative works, proper attribution must be given as specified in this document. When using or redistributing the data, or derivatives thereof, the license terms and any original notices must be clearly communicated and preserved.
 
-## Acknowledgments
-- U.S. Government Publishing Office (GPO) for the congressional records access.
+# Acknowledgments
+
+This project benefits from several external resources and contributions, and we would like to extend our gratitude to the following:
+
+- **U.S. Government Publishing Office (GPO):** Our sincere thanks go to the GPO for providing access to the congressional records. Their dedication to maintaining and publishing these records has been invaluable to our work.
+
+- **GitHub Repository - unitedstates/congress-legislators:** We are especially grateful to the contributors of the [unitedstates/congress-legislators](https://github.com/unitedstates/congress-legislators) repository. This open-source project offers a comprehensive dataset of U.S. Congress legislators, both current and historical. The repository has been instrumental in enhancing the accuracy and depth of our analysis. 
+
+A special thanks to all the contributors who have made this project possible. Your efforts and dedication to open data and public resources significantly enrich our work and the wider community.
+
