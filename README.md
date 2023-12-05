@@ -5,9 +5,6 @@
 ## Principal Investigator:
 Tianyi Zhang - Undergraduate Student at Emory University
 
-## How to Cite this Database
-Zhang, Tianyi. (2023). Congressional Records. GitHub repository. https://github.com/yrqoeuqo123/CongressionalRecords
-
 ## Contact Email:
 tzha325@emory.edu
 
