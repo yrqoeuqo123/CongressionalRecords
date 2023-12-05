@@ -137,7 +137,9 @@ This project benefits from several external resources and contributions, and we 
 
 - **U.S. Government Publishing Office (GPO):** Our sincere thanks go to the GPO for providing access to the congressional records. Their dedication to maintaining and publishing these records has been invaluable to our work.
 
-- **GitHub Repository - unitedstates/congress-legislators:** We are especially grateful to the contributors of the [unitedstates/congress-legislators](https://github.com/unitedstates/congress-legislators) repository. This open-source project offers a comprehensive dataset of U.S. Congress legislators, both current and historical. The repository has been instrumental in enhancing the accuracy and depth of our analysis. 
+- **GitHub Repository - unitedstates/congress-legislators:** We are especially grateful to the contributors of the [unitedstates/congress-legislators](https://github.com/unitedstates/congress-legislators) repository. This open-source project offers a comprehensive dataset of U.S. Congress legislators, both current and historical. The repository has been instrumental in enhancing the accuracy and depth of our analysis.
+
+- ** Congressional Record for the 43rd-114th Congresses: Parsed Speeches and Phrase Counts:** Our sincere thanks for the well-documented preprocessing pipeline which provides insights for how to extract the metadatas from the documents and other steps for data preparation.
 
 A special thanks to all the contributors who have made this project possible. Your efforts and dedication to open data and public resources significantly enrich our work and the wider community.
 
